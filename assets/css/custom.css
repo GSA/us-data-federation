@@ -1,0 +1,17 @@
+.usa-banner {
+    background-color : #205493;
+    padding : 1rem 0 1rem 0;
+    color : #fff;
+}
+
+.usa-banner h1 {
+    margin-top : 2rem;
+}
+
+.usa-label {
+    display : table;
+} 
+
+table th {
+    text-align: left;
+}

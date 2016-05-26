@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+    {% for page in site.pages %}
+
+            <section class="usa-section usa-section-alt">
+                <div class="usa-grid">
+                    <div class="usa-intro">
+
+                      <h2>
+                        <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                      </h2>
+          
+                      {{ page.content }}
+
+                </div>
+            </section>
+
+    {% endfor %}
