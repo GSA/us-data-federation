@@ -1,3 +1,22 @@
+
+body {
+    background-color: #d6d7d9;
+}
+
+.main-content {
+    background-color: #fff;
+}
+
+.frontpage {
+    text-align: center;
+}
+
+.frontpage .logo {
+    width : 30rem;
+    margin : 2rem;
+}
+
+
 .usa-banner {
     background-color : #205493;
     padding : 1rem 0 1rem 0;
