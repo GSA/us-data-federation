@@ -19,3 +19,5 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  initiatives:
+    output: true
