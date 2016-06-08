@@ -1,6 +1,7 @@
----
-layout: default
----
+{% include head.html %}
+
+{% include header.html %}
+
 
         <div id="main" class="main-content" role="main">            
             
@@ -18,8 +19,24 @@ layout: default
                 </div>
             </section> 
 
-            <div class="usa-grid">
+             <div class="usa-grid">
                 {{ content }}
             </div>
 
+            <div class="usa-grid">
+
+                {% for initiative in site.initiatives %}
+
+                <a href="/{{ initiative.permalink }}" class="usa-width-one-third initiative-block">
+                    <h3>{{ initiative.title }}</h3>
+                </a>
+
+                {% cycle '', '', '</div><div class="usa-grid">' %}
+
+                {% endfor %}
+              
+            </div>
+
         </div>
+
+{% include footer.html %}

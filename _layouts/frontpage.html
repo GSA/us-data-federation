@@ -2,11 +2,46 @@
 
 {% include header.html %}
 
-<div class="usa-grid body-content frontpage">
+        <div id="main" class="main-content" role="main">            
 
-<img class="logo" src="assets/img/usdf-logo.svg" alt="U.S. Data Federation Logo">
+            <section class="usa-banner">
+                <div class="usa-grid">
 
-{{ content }}
-</div>
+                    <div class="usa-banner-content" id="main-content">
+                        <h1>
+                            Bringing together the United States of data. 
+                        </h1>
+                        <h2 class="usa-font-lead">
+                           The U.S. Data Federation supports data interoperability and harmonization across Federal, state, and local government agencies by highlighting common data formats, API specifications, and metadata vocabularies. 
+                        </h2>
+                    </div>
+
+                </div>
+            </section>            
+
+            <section class="usa-section">
+   
+                <div class="usa-grid">
+
+                    <h2>
+                        Initiatives
+                    </h2>
+
+                    {% for initiative in site.initiatives %}
+
+                    <a href="/{{ initiative.permalink }}" class="usa-width-one-third initiative-block">
+                        <h3>{{ initiative.title }}</h3>
+                    </a>
+
+                    {% cycle '', '', '</div><div class="usa-grid">' %}
+
+                    {% endfor %}
+                  
+                </div>
+
+            </section>
+
+
+        </div>
 
 {% include footer.html %}
