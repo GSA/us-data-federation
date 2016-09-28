@@ -21,3 +21,12 @@ The U.S. Data Federation website will catalog these initiatives and provide a da
 
 As we’ve seen demonstrated by the powerful impact of the internet and the web, a seamless user experience is possible within a decentralized system, but it requires us to work together and take standardization seriously. Let’s start getting more organized about how we can apply these deeply American principles to our digital government and ensure a better experience for us all.
 
+## Disclaimer and Endorsement
+
+This website includes hypertext links, or pointers, to information created and maintained by other public and/or private organizations. This website only provides these links and pointers for your information and convenience. When you select a link to an outside website, you are leaving this website and are subject to the privacy and security policies of the owners/sponsors of the outside website.
+
+* The General Services Administration (GSA) and Data.gov do not control or guarantee the accuracy, relevance, timeliness, or completeness of information contained on a linked website.
+* GSA and Data.gov do not endorse the organizations sponsoring linked websites and we do not endorse the views they express or the products/services they offer.
+* GSA and Data.gov cannot authorize the use of copyrighted materials contained in linked websites. Users must request such authorization from the sponsor of the linked website.
+* GSA and Data.gov are not responsible for transmissions users receive from linked websites.
+* GSA and Data.gov do not guarantee that outside websites comply with Section 508 (accessibility requirements) of the Rehabilitation Act.
