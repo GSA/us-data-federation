@@ -93,7 +93,7 @@ header.fixed-header .site-navbar ul li#nav-logo a:hover {
 
 
 .usa-header-logo-img {
-
+    width: 200px;
 }
 
 header.smaller {
