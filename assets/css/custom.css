@@ -61,6 +61,7 @@ header.fixed-header .site-navbar ul {
 
 header.fixed-header .site-navbar ul li {
     display: table-cell;
+    vertical-align: top;
     position: relative;
     width: 200px;
     text-align: center;
