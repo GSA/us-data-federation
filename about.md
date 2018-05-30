@@ -4,6 +4,16 @@ title: About
 permalink: /about/
 ---
 
+## The Federated Data Ingest Tool
+
+The Federated Data Ingest Tool is an early prototype.  The data ingest tool allows managers to create a data schema that users can then easily upload and validate data against, correcting any errors as they go.
+
+The Ingest Tool can be built into a GUI interface or operate behind the scenes via an API.  The tool will ingest a file, compare the file to a set of customizable validation rules, and return errors to the user to fix before submitting a final file for review.  The tool can also help agencies verify larger, aggregated datasets containing submissions from a number of external parties.
+
+Help us make the tool even better by [becoming a contributor](https://github.com/18F/django-data-ingest).
+
+# Overview
+
 The U.S. Data Federation will support government-wide data standardization and data federation initiatives across both Federal agencies and local governments. This is intended to be a fundamental coordinating mechanism for a more open and interconnected digital government by profiling and supporting use-cases that demonstrate unified and coherent data architectures across disparate government agencies. These examples will highlight emerging data standards and API initiatives across all levels of government, convey the level of maturity for each effort, and facilitate greater participation by government agencies. Initiatives that may be profiled within the U.S. Data Federation include Open311, DOT’s National Transit Map, the Project Open Data metadata schema, Contact USA, and the Police Data Initiative. As part of the U.S. Data Federation, GSA will also pilot the development of reusable components needed for a successful data federation strategy including schema documentation tools, schema validation tools, and automated data aggregation and normalization capabilities. The U.S. Data Federation will provide more sophisticated and seamless opportunities on the foundation of U.S. open data initiatives by allowing the public to more easily do comparative data analysis across government bodies and create applications that work across multiple government agencies.
 
 ## Background
