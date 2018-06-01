@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Case studies
-permalink: /casestudies/
+permalink: /case-studies/
 ---
 
 # Office of Management and Budget
