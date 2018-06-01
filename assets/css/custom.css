@@ -16,6 +16,16 @@ body {
     margin-top : 5rem;
 }
 
+.usa-banner-content .usa-font-lead a, 
+.usa-banner-content .usa-font-lead a:visited {
+    color : #fff;
+    text-decoration : underline;
+}
+
+.usa-banner-content .usa-font-lead a:hover {
+    text-decoration : none;
+}
+
 .usa-label {
     display : table;
 } 

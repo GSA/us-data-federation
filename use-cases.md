@@ -4,15 +4,15 @@ title: Use Cases
 permalink: /use-cases/
 ---
 
-# Office of Management and Budget
+## Office of Management and Budget
 
-## OMB needs a better way to share audit findings of federal grant dollars with federal agencies.   
+### OMB needs a better way to share audit findings of federal grant dollars with federal agencies.   
 
 The current legacy system dates from the 1990s, and there was a desire to improve the way in which data about grants are shared amongst government agencies.  OMB ultimately wants agencies to work together to coordinate audit resolution processes while increasing transparency.
 
-# U.S. Department of Agriculture
+## U.S. Department of Agriculture
 
-## The USDA wants to start small and build out a federated data service that validates data in real time, starting with data on school lunch programs collected at the school district.  
+### The USDA wants to start small and build out a federated data service that validates data in real time, starting with data on school lunch programs collected at the school district.  
 
 The FNS-742 Verification Summary Report (or 742) is an OMB-approved form that collects information from all School Food Authorities (SFAs) that participate in the National School Lunch and School Breakfast programs on certification and verification outcomes. These data are reported annually by SFAs to their State Agency, which are then submitted to the USDA’s Food & Nutrition Service (FNS). The 742 is FNS’ main source of administrative data for the National School Lunch and Breakfast Programs and it is one of the primary data sets that USDA uses in its work to identify and examine potential process improvements in the Programs, as well as provide technical assistance to Congress in the legislative process.
 
@@ -22,7 +22,7 @@ To address these two problems, USDA first developed a more robust series of edit
 
 USDA plans to pilot the data service in several states.
 
-# Share your story
+## Share your story
 
 The tool is intended for:
 

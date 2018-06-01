@@ -9,14 +9,12 @@
 
                     <div class="usa-banner-content" id="main-content">
                         <h1>
-                          The U.S. Federated Data Ingest Tool
+                          Bringing together the United States of data.
                         </h1>
 
-                        <h2 class="usa-front-lead">
-                          Easily upload, validate and standardize data across all levels of government.  Better data, with less hassle.
+                        <h2 class="usa-font-lead">
+                          The U.S. Data Federation supports data interoperability and harmonization across Federal, state, and local government agencies by developing <a href="/tools">tools</a>, highlighting common data formats, API specifications, and metadata vocabularies.
                         </h2>
-                        <a class="usa-button usa-button-secondary" href="/getstarted">Get started</a>
-
                     </div>
 
                 </div>
@@ -46,27 +44,6 @@
             </div>
         </section>
 
-            <section class="usa-section">
-
-                <div class="usa-grid">
-
-                    <h2>
-                        Initiatives
-                    </h2>
-
-                    {% for initiative in site.initiatives %}
-
-                    <a href="/{{ initiative.permalink }}" class="usa-width-one-third initiative-block">
-                        <h3>{{ initiative.title }}</h3>
-                    </a>
-
-                    {% cycle '', '', '</div><div class="usa-grid">' %}
-
-                    {% endfor %}
-
-                </div>
-
-            </section>
 
 
         </div>
