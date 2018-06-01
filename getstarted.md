@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Get started
-permalink: /getstarted/
+title: Tools
+permalink: /tools/
 ---
 
 # Step one: Download and install the tool
