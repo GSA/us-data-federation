@@ -1,7 +1,7 @@
 ---
 layout: initiative
 title: Open311
-permalink: /pen311/
+permalink: /open311/
 ---
 
 Open311 is an international effort to build open interoperable systems that allow citizens to more directly interact with their government. Many traditional [311](https://en.wikipedia.org/wiki/3-1-1) systems provide a broad range of information and services, but Open311 has primarily focused on coordinating a standardized, open-access, read/write model for citizens to report non-emergency issues.
