@@ -1,7 +1,7 @@
 ---
 layout: initiative
 title: Open Referral
-permalink: open-referral
+permalink: /open-referral/
 ---
 
 Open Referral is an emerging, independent community of practice committed to the development of open standards and interoperable platforms for the production and sharing of human service directories.

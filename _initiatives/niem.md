@@ -1,7 +1,7 @@
 ---
 layout: initiative
 title: National Information Exchange Model
-permalink: niem
+permalink: /niem/
 ---
 
 NIEM—the National Information Exchange Model—is a community-driven, standards-based approach to exchanging information.

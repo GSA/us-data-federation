@@ -1,7 +1,7 @@
 ---
 layout: initiative
 title: Project Open Data
-permalink: project-open-data
+permalink: /project-open-data/
 ---
 
 Project Open Data provides the implementation guide and associated resources for the Federal Executive Order on open data and data management, [M-13-13](https://project-open-data.cio.gov/policy-memo/) "Managing Information as an Asset," including the standardized metadata schema required for all CFO Act agencies to publish the enterprise data inventories. 

@@ -1,7 +1,7 @@
 ---
 layout: initiative
 title: Building & Land Development Specification
-permalink: blds
+permalink: /blds/
 ---
 
 The Building & Land Development Specification (BLDS) is a standard for sharing open data on building and construction permits issued by municipal governments.

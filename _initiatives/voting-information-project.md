@@ -1,7 +1,7 @@
 ---
 layout: initiative
 title: The Voting Information Project
-permalink: voting-information-project
+permalink: /voting-information-project/
 ---
 
 The [Voting Information Project](http://votinginfoproject.org/) (VIP), a project of The Pew Charitable Trusts, is a partnership with the states and Google to ensure that U.S. voters have the information they need, such as where to vote and what’s on their ballots.  VIP uses an open format to make election data available and accessible, bringing cutting edge technology to ensure that all eligible Americans have the information they need to cast a ballot.
