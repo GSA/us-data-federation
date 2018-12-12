@@ -2,44 +2,48 @@
 
 {% include header.html %}
 
-        <div id="main" class="main-content" role="main">            
+        <div id="main" class="main-content" role="main">
 
             <section class="usa-banner">
                 <div class="usa-grid">
 
                     <div class="usa-banner-content" id="main-content">
                         <h1>
-                            Bringing together the United States of data. 
+                          Bringing together the United States of data.
                         </h1>
+
                         <h2 class="usa-font-lead">
-                           The U.S. Data Federation supports data interoperability and harmonization across Federal, state, and local government agencies by highlighting common data formats, API specifications, and metadata vocabularies. 
+                          The U.S. Data Federation supports data interoperability and harmonization across Federal, state, and local government agencies by developing <a href="/tools">tools</a>, highlighting common data formats, API specifications, and metadata vocabularies.
                         </h2>
                     </div>
 
                 </div>
-            </section>            
-
-            <section class="usa-section">
-   
-                <div class="usa-grid">
-
-                    <h2>
-                        Initiatives
-                    </h2>
-
-                    {% for initiative in site.initiatives %}
-
-                    <a href="/{{ initiative.permalink }}" class="usa-width-one-third initiative-block">
-                        <h3>{{ initiative.title }}</h3>
-                    </a>
-
-                    {% cycle '', '', '</div><div class="usa-grid">' %}
-
-                    {% endfor %}
-                  
-                </div>
-
             </section>
+
+        <section class="usa-section">
+            <div class="usa-grid">
+
+              <h2>Why this matters</h2>
+              <p class="usa-font-lead">
+              Long term, successful federated data efforts are unlikely if the process by which data are collected, aggregated and validated cannot be improved.  Gathering these data in a timely fashion by using tools that are complementary to existing workflows (e.g. they do not add additional time and effort on the data provider) and that are easy to use will help modernize the way the federal government functions and interacts with other government agencies. </p>
+
+              <h2>What is a federated data effort?</h2>
+              <p class="usa-font-lead">
+                <b>Federated data</b> refers to data aggregated from many entities across organizational boundaries (local, state, federal).
+
+                A <b>federated data effort</b> is an attempt to streamline and improve the collection of these data.  This might mean agreeing on a standard way to report data across organizations, or it might mean designing tools that make reading in and validating data in many different formats easier. 
+              </p>
+
+              <h2>Get involved</h2>
+              <p class="usa-font-lead">
+              Let us know what you're working on and we'll help you find the best way to get involved.
+              </p>
+
+              <a class="usa-button usa-button-big" href="/contact">Contact us</a>
+
+            </div>
+        </section>
+
 
 
         </div>
