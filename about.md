@@ -4,29 +4,41 @@ title: About
 permalink: /about/
 ---
 
-The U.S. Data Federation will support government-wide data standardization and data federation initiatives across both Federal agencies and local governments. This is intended to be a fundamental coordinating mechanism for a more open and interconnected digital government by profiling and supporting use-cases that demonstrate unified and coherent data architectures across disparate government agencies. These examples will highlight emerging data standards and API initiatives across all levels of government, convey the level of maturity for each effort, and facilitate greater participation by government agencies. Initiatives that may be profiled within the U.S. Data Federation include Open311, DOT’s National Transit Map, the Project Open Data metadata schema, Contact USA, and the Police Data Initiative. As part of the U.S. Data Federation, GSA will also pilot the development of reusable components needed for a successful data federation strategy including schema documentation tools, schema validation tools, and automated data aggregation and normalization capabilities. The U.S. Data Federation will provide more sophisticated and seamless opportunities on the foundation of U.S. open data initiatives by allowing the public to more easily do comparative data analysis across government bodies and create applications that work across multiple government agencies.
+## The problem
 
-## Background
+Federal agencies often need to collect data from state and local governments, other federal agencies, and other data providers, which are used to support policy or budget decisions, operational efficiencies, or published in aggregate form for other data users. Making it easy and convenient for data providers to submit their data while maintaining quality, accuracy, and completeness can often be a challenge.
 
-The concepts of data federation, aggregation, harmonization, and curation have a long history in the geospatial data community with the National Geospatial Data Assets and OMB Circular A-16 Supplemental Guidance, but the 2013 Federal Data Policy, "Managing Information as an Asset," substantially helped these ideas spread across Federal agencies and even local governments. The policy transformed a centralized process for inventorying, releasing, and documenting data into a decentralized, but standardized, process for managing all data assets from within the source agencies. With leadership from OMB and GSA and collaboration between the public and Federal agencies the Project Open Data website documented a process and a standardized metadata schema that everyone could follow and Data.gov built tools and infrastructure to support the process with metadata generators, validators, dashboards, and the Data.gov catalog itself to aggregate this standardized metadata across the myriad disparate sources - not only Federal agencies, but also state and local governments.
+## About the U.S. Data Federation Project
 
-This same federated approach was then repeated with OMB’s FITARA guidance which reused some of the same tools and infrastructure developed for Project Open Data. Now the emerging Open Source Policy from OMB is preparing to take the same approach yet again. GSA and OMB have also been involved with similar work to develop financial data standards as part of the DATA Act.
+The U.S. Data Federation Project is an initiative of the GSA Technology Transformation Services (TTS) [10x program](https://10x.gsa.gov), which funds technology-focused ideas from federal employees with an aim to improve the experience all people have with our government.
 
-Even where there isn’t an explicit policy, White House initiatives have increasingly been aimed at curating and coalescing specific datasets from across the country. The most recent efforts include The Police Data Initiative, The Opportunity Project, The Voting Information Project, and the Civic Data Project. Additionally, some agencies are working on data federation as a dependency for a policy even where the policy isn’t explicit about data management. This is the case with the National Address Database project DOT is coordinating with state and local governments to achieve the mandate of Next Generation 911 services. Many of these projects are included in the 3rd U.S. National Action Plan (NAP) for Open Government, but there are even more commitments in the NAP that will rely on implementing this federated approach including the implementation of the Sustainable Development Goals, Open311, and the Machine Readable Government Organizational Chart. Another NAP commitment covers access to personal data and the needs of the My Data efforts are broadly applicable here as well.
+The goal of the project is to **document repeatable processes, develop reusable tooling, and curate resources** to support federated data projects, making it easier for data providers to submit interoperable, high quality data to federal agencies. 
 
-The U.S. Data Federation website will catalog these initiatives and provide a dashboard indicating the maturity and scale of implementation for each one. The Federation Toolkit will package the reusable components needed for a successful data federation strategy. As a pilot this effort is beginning with a basic website and a discovery sprint to start developing a toolkit. The website will evolve to highlight federation efforts, document how to participate in each one, and track their development status. Ultimately the website will cover the whole lifecycle of data federation. For example:
+We define a federated data project as **an effort in which a common type of data is collected or exchanged across complex, disparate organizational boundaries**. This type of data management effort is common in our distributed style of government, but currently most such efforts are undertaken in isolation and lack infrastructural support or repeatable best practices. 
 
-- The earliest stage of federation is usually a simple matter of curation. The U.S. Data Federation website will allow for this simple curation when no other website is available to do so, but where websites already exist it will point to those curated lists. It will also provide basic stats about the state of curation and indicate the canonical tag that can be used by metadata publishers to curate the data into these collections at the source. As the tag is included in metadata syndicated to Data.gov, the Data.gov catalog will be able to facilitate this aggregated view in a more sustainable way than manual after-the-fact curation.
-- More mature federation incorporates a data standard. The U.S. Data Federation website would indicate the data standard that exists and provide dashboards to track how many agencies or government bodies have published the data using the standard. Where no standard exists, the website would document the policy and best practices for standards development.
+## Our work
 
-As we’ve seen demonstrated by the powerful impact of the internet and the web, a seamless user experience is possible within a decentralized system, but it requires us to work together and take standardization seriously. Let’s start getting more organized about how we can apply these deeply American principles to our digital government and ensure a better experience for us all.
+In **Phase 1**, we interviewed a variety of distributed data management projects and synthesized findings in a [Data Federation Framework](https://github.com/18F/data-federation-project/blob/master/DataFederationFramework.md). Our findings suggested that reusable tooling and processes would benefit future federated data efforts.
 
-## Disclaimer and Endorsement
+In **Phase 2**, we partnered with the USDA Food & Nutrition Service and built a functional prototype of a reusable data validation tool that allows users to submit data via a web interface or API to be validated against a set of customizable rules in real time.
 
-This website includes hypertext links, or pointers, to information created and maintained by other public and/or private organizations. This website only provides these links and pointers for your information and convenience. When you select a link to an outside website, you are leaving this website and are subject to the privacy and security policies of the owners/sponsors of the outside website.
+In **Phase 3**, we will develop a software and service offering for data federation by 
 
-* The General Services Administration (GSA) and Data.gov do not control or guarantee the accuracy, relevance, timeliness, or completeness of information contained on a linked website.
-* GSA and Data.gov do not endorse the organizations sponsoring linked websites and we do not endorse the views they express or the products/services they offer.
-* GSA and Data.gov cannot authorize the use of copyrighted materials contained in linked websites. Users must request such authorization from the sponsor of the linked website.
-* GSA and Data.gov are not responsible for transmissions users receive from linked websites.
-* GSA and Data.gov do not guarantee that outside websites comply with Section 508 (accessibility requirements) of the Rehabilitation Act.
+1. curating and communicating best practices and resources;
+2. refining and expanding the prototype tool developed in Phase 2; and  
+3. validating the tool and other potential reusable tools with additional use cases.
+
+The best practices and resources are intended to include guides and repeatable processes around data governance, organizational coordination, and standards development in federated environments. The reusable tools are intended to include capabilities around data validation, automated aggregation, and the development and documentation of data specifications. 
+
+## Partner with us!
+
+As we develop reusable tools and resources, **we are seeking partners who are improving existing federated data management efforts or launching new ones**. We want to help you navigate the challenges you encounter as a way of testing our tools and developing new ones.  
+
+We’re looking for partners who: 
+* Collect data from external stakeholders, e.g., states or local governments, non-profits, other agencies, etc.
+* Have specific data validation criteria that must be met by submitting entities
+* Are charged with aggregating and acting as stewards for collected data
+* Want to improve data federation across government in order to better serve the public
+
+If you're interested, please [contact us](/contact/). 
+
