@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+### The United States Data Federation is a project focused on making it easier to collect, combine, and exchange data from disparate sources.
+
 ## The problem
 
 Federal agencies often need to collect data from state and local governments, other federal agencies, and other data providers, which are used to support policy or budget decisions, operational efficiencies, or published in aggregate form for other data users. Making it easy and convenient for data providers to submit their data while maintaining quality, accuracy, and completeness can often be a challenge.
