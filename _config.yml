@@ -8,7 +8,7 @@
 # Site settings
 title: U.S. Data Federation
 description: A website to collaborate and track progress on various data federation efforts
-baseurl: "" 
+baseurl: ""
 url: ""
 
 # Build settings
@@ -21,3 +21,9 @@ collections:
     permalink: /:path/
   initiatives:
     output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
