@@ -29,7 +29,7 @@
 
                     {% for initiative in site.initiatives %}
 
-                    <a href="{{ initiative.permalink | prepend: site.baseurl }}" class="usa-width-one-third initiative-block">
+                    <a href="{{ initiative.url | prepend: site.baseurl }}" class="usa-width-one-third initiative-block">
                         <h3>{{ initiative.title }}</h3>
                     </a>
 
