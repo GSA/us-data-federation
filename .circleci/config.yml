@@ -16,7 +16,7 @@ jobs:
           paths:
             - vendor/bundle
       - run: bundle exec jekyll build
-      - run: bundle exec htmlproofer --disable-external --enforce-https --check-html _site
+      - run: bundle exec htmlproofer --disable-external --check-html _site
 
 
 workflows:
