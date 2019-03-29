@@ -78,11 +78,12 @@ header.fixed-header .site-navbar ul li a {
     text-decoration: none;
     vertical-align: top;
     padding-top : 4em;
-    border-bottom : .5rem solid #fff;
+    border-bottom : .5rem solid transparent;
     font-weight: bold;
 }
 
-header.fixed-header .site-navbar ul li a:hover {
+header.fixed-header .site-navbar ul li a:hover,
+header.fixed-header .site-navbar ul li a:focus {
     border-bottom : .5rem solid #F5A623;
 }
 
