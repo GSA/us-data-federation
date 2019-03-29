@@ -15,4 +15,4 @@ HSDS is essentially an interlingua — in other words, it’s a common language 
 
 - [OpenReferral.org](https://openreferral.org)
 - [Implementing localities](https://openreferral.org/about/projects/)
-- [Human Service Data Specification](https://github.com/codeforamerica/OpenReferral/blob/master/Human%20Services%20Data%20Specification%20%20v1.0.md)
+- [Human Service Data Specification](https://github.com/openreferral/specification/blob/master/README.md)

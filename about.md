@@ -20,7 +20,7 @@ We define a federated data project as **an effort in which a common type of data
 
 ## Our work
 
-In **Phase 1**, we interviewed a variety of distributed data management projects and synthesized findings in a [Data Federation Framework](/us-data-federation-framework/). Our findings suggested that reusable tooling and processes would benefit future federated data efforts.
+In **Phase 1**, we interviewed a variety of distributed data management projects and synthesized findings in a [Data Federation Framework]({{ site.baseurl }}/us-data-federation-framework/). Our findings suggested that reusable tooling and processes would benefit future federated data efforts.
 
 In **Phase 2**, we partnered with the USDA Food & Nutrition Service and built a functional prototype of a reusable data validation tool that allows users to submit data via a web interface or API to be validated against a set of customizable rules in real time.
 
@@ -42,5 +42,4 @@ We’re looking for partners who:
 * Are charged with aggregating and acting as stewards for collected data
 * Want to improve data federation across government in order to better serve the public
 
-If you're interested, please [contact us](/contact/). 
-
+If you're interested, please [contact us]({{ site.baseurl }}/contact/).
