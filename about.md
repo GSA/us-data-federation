@@ -20,7 +20,7 @@ The U.S. Data Federation Project is an initiative of the GSA Technology Transfor
 
 ### Our work
 
-In **Phase 1**, we interviewed a variety of distributed data management projects and synthesized findings in a [Data Federation Framework](/us-data-federation-framework/). Our findings suggested that reusable tooling and processes would benefit future federated data efforts.
+In **Phase 1**, we interviewed a variety of distributed data management projects and synthesized findings in a [Data Federation Framework]({{ site.baseurl }}/us-data-federation-framework/). Our findings suggested that reusable tooling and processes would benefit future federated data efforts.
 
 In **Phase 2**, we partnered with the USDA Food & Nutrition Service and built a functional prototype of a reusable data validation tool that allows users to submit data via a web interface or API to be validated against a set of customizable rules in real time. Read more about that collaboration on the [18F blog](https://18f.gsa.gov/2019/03/05/the-us-data-federation/).
 
@@ -36,4 +36,4 @@ The best practices and resources are intended to include guides and repeatable p
 
 As we develop reusable tools and resources, **we want to know what you would benefit from**. A community of practice? A how-to guide on engaging stakeholders? A tool for data aggregation or validation?   
 
-If you're interested, please [get in touch](/contact/).
+If you're interested, please [get in touch]({{ site.baseurl }}/contact/).
