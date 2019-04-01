@@ -19,29 +19,8 @@
                 </div>
             </section>            
 
-            <section class="usa-section">
-   
-                <div class="usa-grid">
-
-                    <h2>
-                        Initiatives
-                    </h2>
-
-                    {% for initiative in site.initiatives %}
-
-                    <a href="/{{ initiative.permalink }}" class="usa-width-one-third initiative-block">
-                        <h3>{{ initiative.title }}</h3>
-                    </a>
-
-                    {% cycle '', '', '</div><div class="usa-grid">' %}
-
-                    {% endfor %}
-                  
-                </div>
-
-            </section>
-
-
-        </div>
+        <div class="usa-grid">
+                {{ content }}
+            </div>
 
 {% include footer.html %}
