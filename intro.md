@@ -1,5 +1,5 @@
 ---
-layout: frontpage
+layout: page
 title: Intro
 permalink: /intro/
 ---
