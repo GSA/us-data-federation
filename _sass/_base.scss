@@ -34,10 +34,14 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit;
 }
 
-
+h2 {
+  margin-top: 5em;
+  margin-bottom: 3em;
+  max-width: 66%;
+}
 
 /**
  * Images
