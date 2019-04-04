@@ -1,18 +1,21 @@
 ---
 layout: page
-title: The U.S. Data Federation Framework (alpha)
+title: The U.S. Data Federation Framework
 permalink: /us-data-federation-framework/
 ---
+
+
+*This is the alpha version of this framework.*
 
 ## Summary
 This project is a partnership between GSA's 18F and Office of Products and Platforms (OPP). We define a data federation as an effort where a certain type of specifiable data is collected across complex disparate organizational boundaries. This could be, for example, when the federal government collects data from states, or states from municipalities, or even when the Office of Management and Budget collects data systematically from many federal agencies. This type of data sharing effort is common in our distributed style of government, but we believe it has not been given the systemic investigation and infrastructural support it deserves — currently each such effort is treated as an isolated instance, with little sharing of tools or lessons from one effort to the next.
 
 The goal of the U.S. Data Federation project is to fill that gap, providing a common language and framework for understanding these efforts, and (in the future) a toolkit for accelerating the implementation of these efforts.
 
-## What We Did
+## What we did
 We interviewed twelve leaders of federated data projects, and seven additional experts from government, academia, and the private sector who have been influential in shaping or understanding these efforts. We developed a maturity model for these efforts in along four axes: Impetus, Community, Specification, and Application. We found that the most successful efforts are those in which all four of these axes are developed iteratively and simultaneously. We also developed a playbook of common ways to ensure these efforts are successful.
 
-Projects We Interviewed:
+Projects we interviewed:
 
 - [DATA ACT](https://en.wikipedia.org/wiki/Digital_Accountability_and_Transparency_Act_of_2014), a 2014 law mandating expanded and standardized reporting of financial data for federal agencies.
 - [data.gov.ie](https://data.gov.ie/data), the open data port for Ireland.
@@ -24,11 +27,11 @@ Projects We Interviewed:
 - [OpenReferral](https://openreferral.org/), dedicated to developing open standards and platforms for making it easy to share and find information related to community resources.
 - [Open311](http://www.open311.org/), A collaborative model and open standard for civic issue tracking.
 - [National Information Exchange Model (NIEM)](https://www.niem.gov/), a common vocabulary that enables efficient information exchange across diverse public and private organizations. NIEM can save time and money by providing consistent, reusable data terms and definitions, and repeatable processes.
-- [Federal Geographic Data Committee](https://www.fgdc.gov/), an organized structure of Federal geospatial professionals and constituents that provide executive, managerial, and advisory direction and oversight for geospatial decisions and initiatives across the Federal government. 
+- [Federal Geographic Data Committee](https://www.fgdc.gov/), an organized structure of Federal geospatial professionals and constituents that provide executive, managerial, and advisory direction and oversight for geospatial decisions and initiatives across the Federal government.
 
 We also researched the General Transit Feed Specification.
 
-Other Experts we Spoke With
+Other experts we spoke with:
 
 - Rachel Bloom, who researched open data standard adoption for her thesis. Currently at [GeoThink](http://geothink.ca/).
 - [Andrew Nicklin](https://govex.jhu.edu/author/anicklin/), Director of Data Practices at Johns Hopkins Center for Government Excellence
@@ -136,10 +139,10 @@ The following nine plays are drawn from our interviews with successful federated
 **Support Compliance Tooling**: In order to lessen the burden on data owners, it's important to do everything you can to help them compile and validate their data. For example, data.gov provides inventory.data.gov, a metadata inventory tool for agencies that easily exports the metadata to the required format. It also provides an online tool for validating a data.json file adheres to the specified format. Publicly accessible, human readable documentation is also a critical part of the success of these efforts.
 
 
-## Next Steps
+## Next steps
 Due to its decentralized nature, the U.S. Government often undertakes complex federated data efforts. It's time to collaborate more on what works, what doesn't, and ways to lower capital investment for these efforts in the future by sharing tooling and other resources. We hope to be shortly beginning a new phase of this project focused on identifying and building common tooling and answering critical questions around the long term ownership and maintenance of federated data efforts.
 
-## Helpful Resources
+## Helpful resources
 - [JSON Schema](http://json-schema.org/)
 - [Understanding JSON Schema (ebook)](https://spacetelescope.github.io/understanding-json-schema/)
 - [XML data types](https://www.w3.org/TR/xmlschema-2/#built-in-primitive-datatypes)
@@ -147,4 +150,3 @@ Due to its decentralized nature, the U.S. Government often undertakes complex fe
 - [CKAN](https://ckan.org/)
 - [datastandards.directory](https://datastandards.directory/)
 - [State-Federal Datasets](https://github.com/OpenDataCT/state-federal-datasets)
-
