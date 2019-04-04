@@ -4,9 +4,15 @@ title: Home
 permalink: /
 ---
 
+<<<<<<< HEAD:home.md
 ## The goal of the project is to document repeatable processes, develop reusable tooling, and curate resources to support any effort in which a common type of data is collected or exchanged across disparate organizational boundaries.
 
 ### Getting good, reliable data is hard. Getting data from different sources makes this even harder.
+=======
+# The goal of the project is to document repeatable processes, develop reusable tooling, and curate resources to support any effort in which a common type of data is collected or exchanged across disparate organizational boundaries.
+
+## Getting good, reliable data is hard. Getting data from different sources makes this even harder.
+>>>>>>> 8d19425f53d7ea1fbd000a99787836f27c4b23fc:intro.md
 
 There are a number of things that make this more difficult: Aligning incentives across organizational boundaries, specifying data standards, ensuring integrity in the data collection process, implementing reliable data validation processes, and more. These are the challenges federated data efforts face.
 
