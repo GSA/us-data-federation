@@ -1,7 +1,7 @@
 ---
 layout: frontpage
-title: Intro
-permalink: /intro/
+title: Home
+permalink: /
 ---
 
 ## Getting good, reliable data is hard. Getting data from different sources makes this even harder.
