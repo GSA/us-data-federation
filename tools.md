@@ -4,13 +4,13 @@ title: Tools
 permalink: /tools/
 ---
 
-## The U.S. Data Federation wants to curate and create reusable tools to support federated data efforts. The reusable tools are intended to include capabilities around data validation, automated aggregation, and the development and documentation of data specifications.
+## The U.S. Data Federation is curating and creating reusable tools to support data validation, automated aggregation, and the development and documentation of data specifications.
 
-### **Django Data Ingest**
+### Django Data Ingest
 
 The first tool prototyped through this effort is a reusable Django project that manages data submitted as file uploads to a central gathering point. It performs data validation, basic change tracking, and duplicate file handling.
 
-Learn more about the tool and track its development on [GitHub](https://github.com/18F/django-data-ingest/blob/master/README.md).
+Learn more about the tool and track its development on [GitHub](https://github.com/18F/django-data-ingest/blob/master/README.md)
 
 #### Features
 

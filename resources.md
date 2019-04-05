@@ -4,7 +4,7 @@ title: Resources
 permalink: /resources/
 ---
 
-## The U.S. Data Federation wants to document and share best practices around federated data efforts. These resources are intended to include guides and repeatable processes around data governance, organizational coordination, and standards development in federated environments.
+## The U.S. Data Federation intends to share best practices around federated data efforts, including guides and repeatable processes around data governance, organizational coordination, and standards development in federated environments.
 
 ### U.S. Data Federation Framework
 
