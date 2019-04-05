@@ -557,6 +557,7 @@ body {
     display: block;
     margin-right: 4.82916%;
     width: 100%;
+    margin-bottom: 65px;
   }
   .usa-grid .usa-width-three-fourths:last-child,
   .usa-grid-full .usa-width-three-fourths:last-child {
@@ -1824,6 +1825,7 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 170%;
 }
 
 h4 {

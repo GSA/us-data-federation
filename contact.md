@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact & participate
+title: Get in touch
 permalink: /contact/
 ---
 

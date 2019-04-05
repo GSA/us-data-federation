@@ -32,7 +32,7 @@ In **Phase 3**, we are working to develop a software and service offering to sup
 
 The best practices and resources are intended to include guides and repeatable processes around data governance, organizational coordination, and standards development in federated environments. The reusable tools are intended to include capabilities around data validation, automated aggregation, and the development and documentation of data specifications.
 
-## Get in touch!
+### Get in touch!
 
 As we develop reusable tools and resources, **we want to know what you would benefit from**. A community of practice? A how-to guide on engaging stakeholders? A tool for data aggregation or validation?   
 
