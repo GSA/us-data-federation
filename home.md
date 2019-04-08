@@ -12,7 +12,7 @@ There are a number of things that make this more difficult: Aligning incentives 
 
 In our distributed style of government, this happens all the time, and it is critical to the success of many programs and services. Federated data efforts happen at every level; whether it’s federal agencies exchanging data, federal agencies collecting data from states, or states aggregating data from local entities like city governments, school districts, or transportation authorities.
 
-![](assets/img/diagram.svg)
+![Diagram](/assets/img/diagram.svg "Federated data connections diagram")
 
 These data are being used in many ways. They may inform inform policy, support operational efficiencies, or be published in aggregate form for other data users. for example—but they all have the same issue. Regardless, it’s a challenge to reduce the burden on data providers while still maintaining quality, accuracy, and completeness.
 
