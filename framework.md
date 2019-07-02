@@ -22,10 +22,10 @@ Projects we interviewed:
 - [data.gov](https://www.data.gov), the open data portal for the United States.
 - [code.gov](https://code.gov/), a searchable directory of open source code made public by the federal government.
 - [Voting Information Project](https://www.votinginfoproject.org/) helps voters find information about their elections with collaborative, open-source tools.
-- [Open Civic Data](http://opencivicdata.readthedocs.io/en/latest/index.html), an effort to define common schemas and provide tools for gathering information on government organizations, people, legislation, and events.
+- [Open Civic Data](https://opencivicdata.readthedocs.io/en/latest/index.html), an effort to define common schemas and provide tools for gathering information on government organizations, people, legislation, and events.
 - [opendataphilly.org](https://www.opendataphilly.org/), the open data portal for Philadelphia.
 - [OpenReferral](https://openreferral.org/), dedicated to developing open standards and platforms for making it easy to share and find information related to community resources.
-- [Open311](http://www.open311.org/), A collaborative model and open standard for civic issue tracking.
+- [Open311](https://www.open311.org/), A collaborative model and open standard for civic issue tracking.
 - [National Information Exchange Model (NIEM)](https://www.niem.gov/), a common vocabulary that enables efficient information exchange across diverse public and private organizations. NIEM can save time and money by providing consistent, reusable data terms and definitions, and repeatable processes.
 - [Federal Geographic Data Committee](https://www.fgdc.gov/), an organized structure of Federal geospatial professionals and constituents that provide executive, managerial, and advisory direction and oversight for geospatial decisions and initiatives across the Federal government.
 
@@ -35,7 +35,7 @@ Other experts we spoke with:
 
 - Rachel Bloom, who researched open data standard adoption for her thesis. Currently at [GeoThink](http://geothink.ca/).
 - [Andrew Nicklin](https://govex.jhu.edu/author/anicklin/), Director of Data Practices at Johns Hopkins Center for Government Excellence
-- [James McKinney](http://www.jamespetermckinney.com/), Senior Data Standard Specialist at Open Contracting Partnership
+- [James McKinney](https://www.jamespetermckinney.com/), Senior Data Standard Specialist at Open Contracting Partnership
 - [Data Coalition](https://www.datacoalition.org/), who advocates on behalf of the private sector and the public interest for the publication of government information as standardized, machine-readable data.
 - [Open Data Institute](https://theodi.org/), which connects, equips and inspires people around the world to innovate with data.
 - [Mark Headd](https://www.linkedin.com/in/markheadd), current 18F acquisitions specialist and former Philadelphia CDO.
@@ -63,7 +63,7 @@ When interviewing experts, the interviews took a looser structure but we general
 
 We took notes directly in a public github issue, and submitted it upon completion of the interview, sending it to the participants for review. You can view those raw notes [here](https://github.com/18F/data-federation-report/issues?utf8=%E2%9C%93&q=is%3Aissue+interview).
 
-We have also compiled a [summary of all projects interviewed](summary.csv).
+We have also compiled a [summary of all projects interviewed]({{ site.baseurl }}/assets/summary.csv).
 
 Our analysis consisted of analyzing our interview notes and identifying common themes and patterns, presented in two forms: a [Maturity Model](#the-data-federation-maturity-model) and [Playbook](#the-data-federation-playbook). The maturity model identifies four principal dimensions with which to gauge a federated effort, and three phases of maturity for each dimension. The playbook consists of a set of actionable plays which have proven helpful to previous efforts.  
 
@@ -143,7 +143,7 @@ The following nine plays are drawn from our interviews with successful federated
 Due to its decentralized nature, the U.S. Government often undertakes complex federated data efforts. It's time to collaborate more on what works, what doesn't, and ways to lower capital investment for these efforts in the future by sharing tooling and other resources. We hope to be shortly beginning a new phase of this project focused on identifying and building common tooling and answering critical questions around the long term ownership and maintenance of federated data efforts.
 
 ## Helpful resources
-- [JSON Schema](http://json-schema.org/)
+- [JSON Schema](https://json-schema.org/)
 - [Understanding JSON Schema (ebook)](https://spacetelescope.github.io/understanding-json-schema/)
 - [XML data types](https://www.w3.org/TR/xmlschema-2/#built-in-primitive-datatypes)
 - [Table Schema](https://frictionlessdata.io/specs/table-schema/)

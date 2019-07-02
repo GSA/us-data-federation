@@ -138,7 +138,7 @@ a.nav-toggle {
     height : 80px;
     text-indent: -99999em;
     overflow : hidden;
-    background: url('/assets/img/usdf-logo.svg');
+    background: url('../img/usdf-logo.svg');
     background-size : 100%;
     float : left;
 }
