@@ -63,7 +63,7 @@ When interviewing experts, the interviews took a looser structure but we general
 
 We took notes directly in a public github issue, and submitted it upon completion of the interview, sending it to the participants for review. You can view those raw notes [here](https://github.com/18F/data-federation-report/issues?utf8=%E2%9C%93&q=is%3Aissue+interview).
 
-We have also compiled a [summary of all projects interviewed]({{ site.baseurl }}/assets/summary.csv).
+We have also compiled a [summary of all projects interviewed](https://github.com/18F/data-federation-project/blob/master/summary.csv).
 
 Our analysis consisted of analyzing our interview notes and identifying common themes and patterns, presented in two forms: a [Maturity Model](#the-data-federation-maturity-model) and [Playbook](#the-data-federation-playbook). The maturity model identifies four principal dimensions with which to gauge a federated effort, and three phases of maturity for each dimension. The playbook consists of a set of actionable plays which have proven helpful to previous efforts.  
 
