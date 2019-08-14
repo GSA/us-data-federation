@@ -23,8 +23,10 @@ collections:
     output: true
 
 exclude:
+  - "*.yml"
+  - CONTRIBUTING.md
   - Gemfile
   - Gemfile.lock
-  - LICENSE
+  - LICENSE.md
   - README.md
   - vendor/bundle
