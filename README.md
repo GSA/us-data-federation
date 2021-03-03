@@ -11,10 +11,17 @@ See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
 
 This site is automatically published based on the branch.
 
-Branch    | Environment | URL
-------    | ----------- | ---
-`develop` | staging     | [federation-staging.data.gov](https://federation-staging.data.gov/)
-`master`  | production  | [federation.data.gov](https://federation.data.gov/)
+Branch    | Environment | URL | Description
+------    | ----------- | --- | -----------
+`develop` | staging     | [federation-staging.data.gov](https://federation-staging.data.gov/) | Ad-hoc development and significant changes requiring partner review.
+`main`  | production  | [federation.data.gov](https://federation.data.gov/) | Production instance.
+
+Federalist automatically builds previews for all branches. Changes to `main` are
+automatically published to [federation.data.gov](https://federation.data.gov/).
+Feature branches should be branched from `main`.
+
+`develop` is used ad-hoc in order to preview significant changes with partners
+and is not part of the development workflow.
 
 
 ## Public domain
