@@ -22,11 +22,11 @@ Install the dependencies.
 
 The rest of the lifecycle operations can be run with Rake (ex `rake build`)
 
-| Command       | Description            |
-| ------------- | ---------------------- |
-| build         | Build the site         |
-| serve         | Serve a local build    |
-| brokenLinks   | Check for broken links |
+| Command   | Description            |
+| --------- | ---------------------- |
+| build     | Build the site         |
+| serve     | Serve a local build    |
+| testLinks | Check for broken links |
 
 ## Contributing
 

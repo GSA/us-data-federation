@@ -1,4 +1,5 @@
 require "bundler"
+require 'html-proofer'
 
 task default: "serve"
 
@@ -12,9 +13,8 @@ task :build do
   system('bundle exec jekyll build')
 end
 
-desc "Check for broken links"
-task :brokenLinks do
-  puts "Checking for broken links..."
-  system('bundle exec jekyll build')
-  system('bundle exec htmlproofer --check-html _site')
+task :testLinks do
+  sh "bundle exec jekyll build"
+  options = { swap_urls: "^/BASEURL/:/" }
+  HTMLProofer.check_directory("./_site", options).run
 end
