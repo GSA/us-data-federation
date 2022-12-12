@@ -1,9 +1,40 @@
-[![CircleCI](https://circleci.com/gh/GSA/us-data-federation.svg?style=svg)](https://circleci.com/gh/GSA/us-data-federation)
+[![GitHub Actions](https://github.com/GSA/us-data-federation/actions/workflows/build.yml/badge.svg)](https://github.com/GSA/us-data-federation/actions/workflows/build.yml)
+[![GitHub Actions](https://github.com/GSA/us-data-federation/actions/workflows/qa.yml/badge.svg)](https://github.com/GSA/us-data-federation/actions/workflows/qa.yml)
 
 # us-data-federation
 
 U.S. Data Federation website
 
+## Usage
+
+## Development
+
+### Requirements
+
+-   [Ruby](https://www.ruby-lang.org/en/) > 2.7
+-   [Bundler](https://bundler.io/)
+
+### Setup
+
+Install the dependencies.
+
+    $ bundle install
+
+Build the Jekyll site.
+
+    $ bundle exec jekyll build
+
+Serve the site locally.
+
+    $ bundle exec jekyll serve
+
+Open your web browser to [localhost:4000](http://localhost:4000/).
+
+### Tests
+
+Check for broken links
+
+    $ bundle exec htmlproofer --check-html _site
 
 ## Contributing
 
@@ -11,10 +42,10 @@ See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
 
 This site is automatically published based on the branch.
 
-Branch    | Environment | URL | Description
-------    | ----------- | --- | -----------
-`develop` | staging     | [federation-staging.data.gov](https://federation-staging.data.gov/) | Ad-hoc development and significant changes requiring partner review.
-`main`  | production  | [federation.data.gov](https://federation.data.gov/) | Production instance.
+| Branch    | Environment | URL                                                                 | Description                                                          |
+| --------- | ----------- | ------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `develop` | staging     | [federation-staging.data.gov](https://federation-staging.data.gov/) | Ad-hoc development and significant changes requiring partner review. |
+| `main`    | production  | [federation.data.gov](https://federation.data.gov/)                 | Production instance.                                                 |
 
 Federalist automatically builds previews for all branches. Changes to `main` are
 automatically published to [federation.data.gov](https://federation.data.gov/).
@@ -22,7 +53,6 @@ Feature branches should be branched from `main`.
 
 `develop` is used ad-hoc in order to preview significant changes with partners
 and is not part of the development workflow.
-
 
 ## Public domain
 
