@@ -20,21 +20,13 @@ Install the dependencies.
 
     $ bundle install
 
-Build the Jekyll site.
+The rest of the lifecycle operations can be run with Rake (ex `rake build`)
 
-    $ bundle exec jekyll build
-
-Serve the site locally.
-
-    $ bundle exec jekyll serve
-
-Open your web browser to [localhost:4000](http://localhost:4000/).
-
-### Tests
-
-Check for broken links
-
-    $ bundle exec htmlproofer --check-html _site
+| Command       | Description            |
+| ------------- | ---------------------- |
+| build         | Build the site         |
+| serve         | Serve a local build    |
+| brokenLinks   | Check for broken links |
 
 ## Contributing
 
