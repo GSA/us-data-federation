@@ -16,7 +16,7 @@ U.S. Data Federation website
 
 ### Setup
 
-After you've confirmed you have Ruby > 2.7 (`ruby --version`) and Bundler (`bundle --version`) installed, all lifecycle operations can be run with Make commands (ex `make install`).
+After you've confirmed the above requirements, all lifecycle operations can be run with Make commands (ex `make install`).
 
 | Make Command | Alias for                                    | Description                                                |
 | ------------ | -------------------------------------------- | ---------------------------------------------------------- |
