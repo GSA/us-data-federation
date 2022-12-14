@@ -16,17 +16,15 @@ U.S. Data Federation website
 
 ### Setup
 
-Install the dependencies.
+After you've confirmed you have Ruby > 2.7 (`ruby --version`) and Bundler (`bundle --version`) installed, all lifecycle operations can be run with Make commands (ex `make install`).
 
-    $ bundle install
-
-The rest of the lifecycle operations can be run with Rake (ex `rake build`)
-
-| Command   | Description            |
-| --------- | ---------------------- |
-| build     | Build the site         |
-| serve     | Serve a local build    |
-| testLinks | Check for broken links |
+| Make Command | Alias for                                    | Description                                                |
+| ------------ | -------------------------------------------- | ---------------------------------------------------------- |
+| install      | `bundle install`                             | Install dependencies (pinned in Gemfile.lock, if it exists |
+| update       | `bundle update`                              | Update installed dependencies; Reacreate Gemfile.lock      |
+| build        | `bundle exec jekyll build`                   | Build the site                                             |
+| serve        | `bundle exec jekyll serve`                   | Serve a local build                                        |
+| testlinks    | `bundle exec htmlproofer --check-html _site` | Check for broken links                                     |
 
 ## Contributing
 
