@@ -16,25 +16,15 @@ U.S. Data Federation website
 
 ### Setup
 
-Install the dependencies.
+After you've confirmed the above requirements, all lifecycle operations can be run with Make commands (ex `make install`).
 
-    $ bundle install
-
-Build the Jekyll site.
-
-    $ bundle exec jekyll build
-
-Serve the site locally.
-
-    $ bundle exec jekyll serve
-
-Open your web browser to [localhost:4000](http://localhost:4000/).
-
-### Tests
-
-Check for broken links
-
-    $ bundle exec htmlproofer --check-html _site
+| Make Command | Description                                                |
+| ------------ | ---------------------------------------------------------- |
+| install      | Install dependencies (pinned in Gemfile.lock, if it exists |
+| update       | Update installed dependencies; Reacreate Gemfile.lock      |
+| build        | Build the site                                             |
+| serve        | Serve a local build                                        |
+| testlinks    | Check for broken links                                     |
 
 ## Contributing
 
