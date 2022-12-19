@@ -24,7 +24,8 @@ After you've confirmed the above requirements, all lifecycle operations can be r
 | update       | Update installed dependencies; Reacreate Gemfile.lock      |
 | build        | Build the site                                             |
 | serve        | Serve a local build                                        |
-| testlinks    | Check for broken links                                     |
+| test         | Check for broken internal links                            |
+| qa           | Check for broken external links                            |
 
 ## Contributing
 
