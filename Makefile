@@ -9,4 +9,4 @@ serve:
 test:
 	bundle exec htmlproofer --check-html --disable-external _site
 qa:
-	bundle exec htmlproofer --check-html _site 
+	bundle exec htmlproofer --check-html _site
