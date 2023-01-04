@@ -13,19 +13,19 @@ U.S. Data Federation website
 
 -   [Ruby](https://www.ruby-lang.org/en/) > 2.7
 -   [Bundler](https://bundler.io/)
+-   [Node](https://bundler.io/)
 
 ### Setup
 
-After you've confirmed the above requirements, all lifecycle operations can be run with Make commands (ex `make install`).
+After you've confirmed the above requirements, all lifecycle operations can be run with NPM scripts (ex. `npm run build`)
 
-| Make Command | Description                                                |
-| ------------ | ---------------------------------------------------------- |
-| install      | Install dependencies (pinned in Gemfile.lock, if it exists |
-| update       | Update installed dependencies; Reacreate Gemfile.lock      |
-| build        | Build the site                                             |
-| serve        | Serve a local build                                        |
-| test         | Check for broken internal links                            |
-| qa           | Check for broken external links                            |
+| NPM Command | Description                     |
+| ----------- | ------------------------------- |
+| build       | Build the site                  |
+| setup       | Install ruby gems               |
+| start       | Serve a local build             |
+| test        | Check for broken internal links |
+| qa          | Check for broken external links |
 
 ## Contributing
 
