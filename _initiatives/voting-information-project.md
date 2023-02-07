@@ -9,6 +9,6 @@ The [Voting Information Project](https://votinginfoproject.org/) (VIP), a projec
 For information about accessing raw VIP data, please contact [info@votinginfoproject.org](mailto:info@votinginfoproject.org)
 
 - [VIP Specification version 3.0](https://votinginfoproject.github.io/vip-specification/)
-- [VIP Specification version 5.0](https://vip-specification.readthedocs.io/en/vip5/index.html)
+- [VIP Specification version 5.2](https://www.votinginfoproject.org/spec)
 - [VIP GitHub](https://github.com/votinginfoproject)
 - [Google Civic Information API documentation](https://developers.google.com/civic-information/)
