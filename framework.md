@@ -22,7 +22,7 @@ Projects we interviewed:
 - [data.gov](https://www.data.gov), the open data portal for the United States.
 - [code.gov](https://code.gov/), a searchable directory of open source code made public by the federal government.
 - [Voting Information Project](https://www.votinginfoproject.org/) helps voters find information about their elections with collaborative, open-source tools.
-- [Open Civic Data](https://opencivicdata.readthedocs.io/en/latest/index.html), an effort to define common schemas and provide tools for gathering information on government organizations, people, legislation, and events.
+- [Open Civic Data](https://github.com/opencivicdata), an effort to define common schemas and provide tools for gathering information on government organizations, people, legislation, and events.
 - [opendataphilly.org](https://www.opendataphilly.org/), the open data portal for Philadelphia.
 - [OpenReferral](https://openreferral.org/), dedicated to developing open standards and platforms for making it easy to share and find information related to community resources.
 - [Open311](https://www.open311.org/), A collaborative model and open standard for civic issue tracking.
@@ -34,12 +34,12 @@ We also researched the General Transit Feed Specification.
 Other experts we spoke with:
 
 - Rachel Bloom, who researched open data standard adoption for her thesis. Currently at [GeoThink](http://geothink.ca/).
-- [Andrew Nicklin](https://govex.jhu.edu/author/anicklin/), Director of Data Practices at Johns Hopkins Center for Government Excellence
+- [Andrew Nicklin](https://www.linkedin.com/in/andrewnicklin/), Director of Data Practices at Johns Hopkins Center for Government Excellence
 - [James McKinney](https://www.jamespetermckinney.com/), Senior Data Standard Specialist at Open Contracting Partnership
 - [Data Coalition](https://www.datacoalition.org/), who advocates on behalf of the private sector and the public interest for the publication of government information as standardized, machine-readable data.
 - [Open Data Institute](https://theodi.org/), which connects, equips and inspires people around the world to innovate with data.
 - [Mark Headd](https://www.linkedin.com/in/markheadd), current 18F acquisitions specialist and former Philadelphia CDO.
-- [Wo Chang](https://www.nist.gov/people/wo-l-chang), Co-chair of the NIST Big Data Working Group.
+- [Wo Chang](https://www.linkedin.com/in/wo-chang-473abb68), Co-chair of the NIST Big Data Working Group.
 - Tyler Kleykamp, Chief Data Officer of Connecticut, who runs the [Connecticut Open Data Portal](https://data.ct.gov/) and maintains this [list](https://github.com/OpenDataCT/state-federal-datasets)
 of datasets states must report to the Federal government.
 
