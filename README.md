@@ -11,9 +11,9 @@ U.S. Data Federation website
 
 ### Requirements
 
--   [Ruby](https://www.ruby-lang.org/en/) > 2.7
+-   [Ruby](https://www.ruby-lang.org/en/) = 3.1.4
 -   [Bundler](https://bundler.io/) > 2.0
--   [Node](https://nodejs.org/en/download/) > 16.0
+-   [Node](https://nodejs.org/en/download/) = 20
 
 ### Setup
 
