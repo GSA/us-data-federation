@@ -22,6 +22,9 @@ collections:
   initiatives:
     output: true
 
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - "*.yml"
   - CONTRIBUTING.md
